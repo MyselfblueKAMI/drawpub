@@ -84,7 +84,7 @@
         <mxCell id="r9RUobW6EmDbC4F0-X_W-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.67;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="r9RUobW6EmDbC4F0-X_W-22" target="r9RUobW6EmDbC4F0-X_W-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r9RUobW6EmDbC4F0-X_W-31" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;S3/CIFS/NFS&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9RUobW6EmDbC4F0-X_W-30">
+        <mxCell id="r9RUobW6EmDbC4F0-X_W-31" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;S3/CIFS/NFS&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9RUobW6EmDbC4F0-X_W-30">
           <mxGeometry x="-0.102" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
