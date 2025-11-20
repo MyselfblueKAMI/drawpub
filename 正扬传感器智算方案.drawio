@@ -57,16 +57,21 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="y2a7eQ8l_IWCcw6A4QyB-1" value="天翼云资源池云主机" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#b85450;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#f8cecc;spacingLeft=20;fontFamily=Helvetica;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="500" y="220" width="230" height="510" as="geometry" />
+          <mxGeometry x="500" y="220" width="230" height="390" as="geometry" />
         </mxCell>
         <mxCell id="y2a7eQ8l_IWCcw6A4QyB-2" value="客户本地IDC" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#6c8ebf;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#dae8fc;spacingLeft=20;fontFamily=Helvetica;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="150" y="220" width="230" height="120" as="geometry" />
+          <mxGeometry x="184" y="220" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="kIEQk-gsqnLJEuQk9Hhy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-4" target="y2a7eQ8l_IWCcw6A4QyB-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kIEQk-gsqnLJEuQk9Hhy-22" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;提供最新知识&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" connectable="0" parent="kIEQk-gsqnLJEuQk9Hhy-16">
+          <mxGeometry x="-0.0637" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="y2a7eQ8l_IWCcw6A4QyB-4" value="&lt;b&gt;知识库构建 (离线)：&lt;/b&gt;文档切片 (Chunking)、向量化 (Embedding)、存入向量数据库 (Vector DB)。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="175" y="260" width="180" height="60" as="geometry" />
+          <mxGeometry x="209" y="260" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y2a7eQ8l_IWCcw6A4QyB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-9" target="y2a7eQ8l_IWCcw6A4QyB-11">
           <mxGeometry relative="1" as="geometry" />
@@ -85,6 +90,9 @@
         </mxCell>
         <mxCell id="y2a7eQ8l_IWCcw6A4QyB-13" value="&lt;b&gt;检索增强 (RAG)：&lt;/b&gt;根据问题在向量库中检索相关片段 (Top-K)。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="525" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIEQk-gsqnLJEuQk9Hhy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-14" target="kIEQk-gsqnLJEuQk9Hhy-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y2a7eQ8l_IWCcw6A4QyB-14" value="&lt;b&gt;上下文组装：&lt;/b&gt;将“系统提示词 + 检索到的知识 + 用户问题”打包。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="525" y="530" width="180" height="60" as="geometry" />
