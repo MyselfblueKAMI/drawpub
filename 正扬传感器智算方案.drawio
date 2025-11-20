@@ -184,11 +184,26 @@
             <mxPoint x="695.1111111111111" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FzcrKdH1FkVid-rHUk3Q-6" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;获得反馈&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" connectable="0" parent="FzcrKdH1FkVid-rHUk3Q-5">
+          <mxGeometry x="0.0988" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzcrKdH1FkVid-rHUk3Q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#999999;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="HVnx06Y8Hpo8Ns5ZuRhF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzcrKdH1FkVid-rHUk3Q-9" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;提问&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" connectable="0" parent="FzcrKdH1FkVid-rHUk3Q-8">
+          <mxGeometry x="0.0359" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HVnx06Y8Hpo8Ns5ZuRhF-2" value="&lt;b&gt;智能体：&lt;/b&gt;将“系统提示词 + 检索到的知识 + 用户问题”打包。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="605" y="595" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FzcrKdH1FkVid-rHUk3Q-3" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="720" width="30" height="30" as="geometry" />
+          <mxGeometry x="645" y="720" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
