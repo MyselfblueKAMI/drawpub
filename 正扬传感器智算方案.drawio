@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9" pages="2">
   <diagram name="模型微调" id="oPrS_YDtwj4c06tfMzGr">
     <mxGraphModel dx="1605" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,6 +47,58 @@
         </mxCell>
         <mxCell id="VbFLIsorF7-M0Z902h-7-18" value="&lt;b&gt;模型部署：&lt;/b&gt;将训练好的权重合并，使用推理框架（如 vLLM, TGI）部署为 API。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="335" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OrbjR_Z0868tIabJP0gr" name="RAG">
+    <mxGraphModel dx="778" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-1" value="天翼云资源池GPU算力" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#b85450;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#f8cecc;spacingLeft=20;fontFamily=Helvetica;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="230" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-2" value="客户本地IDC" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#6c8ebf;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#dae8fc;spacingLeft=20;fontFamily=Helvetica;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-4" target="y2a7eQ8l_IWCcw6A4QyB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-4" value="&lt;b&gt;数据准备 (最为关键)&lt;/b&gt;：收集公司内部文档、代码库、历史客服对话等。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="175" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-7" target="y2a7eQ8l_IWCcw6A4QyB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-6" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;训练数据输入&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" connectable="0" parent="y2a7eQ8l_IWCcw6A4QyB-5">
+          <mxGeometry x="-0.0118" y="2" relative="1" as="geometry">
+            <mxPoint x="-9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-7" value="&lt;b&gt;数据清洗与构建：&lt;/b&gt;去重、脱敏，并将其转化为模型可读的指令微调数据格式（如 Input-Output 对或 Q&amp;amp;A 对）。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="175" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-9" target="y2a7eQ8l_IWCcw6A4QyB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-9" value="&lt;b&gt;基座模型选型：&lt;/b&gt;选择适合的开源模型（如 DS, Qwen, Gemini 等）。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="525" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-11" target="y2a7eQ8l_IWCcw6A4QyB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-11" value="&lt;b&gt;模型微调 (SFT)：&lt;/b&gt;使用全量微调或高效微调技术（如 LoRA）进行训练。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="525" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="y2a7eQ8l_IWCcw6A4QyB-13" target="y2a7eQ8l_IWCcw6A4QyB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-13" value="&lt;b&gt;评估与对齐：&lt;/b&gt;使用测试集评估模型表现，必要时进行 RLHF/DPO (人类偏好对齐)。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="525" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2a7eQ8l_IWCcw6A4QyB-14" value="&lt;b&gt;模型部署：&lt;/b&gt;将训练好的权重合并，使用推理框架（如 vLLM, TGI）部署为 API。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="525" y="530" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
