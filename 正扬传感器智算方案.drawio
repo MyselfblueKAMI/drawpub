@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VbFLIsorF7-M0Z902h-7-4" value="天翼云资源池" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#b85450;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#f8cecc;spacingLeft=20;fontFamily=Helvetica;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="310" y="30" width="230" height="500" as="geometry" />
+          <mxGeometry x="310" y="30" width="230" height="570" as="geometry" />
         </mxCell>
         <mxCell id="VbFLIsorF7-M0Z902h-7-5" value="客户本地IDC" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#6c8ebf;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#dae8fc;spacingLeft=20;fontFamily=Helvetica;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="-40" y="30" width="230" height="300" as="geometry" />
@@ -31,8 +31,14 @@
         <mxCell id="VbFLIsorF7-M0Z902h-7-14" value="&lt;b&gt;模型微调 (SFT)：&lt;/b&gt;使用全量微调或高效微调技术（如 LoRA）进行训练。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="335" y="210" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VbFLIsorF7-M0Z902h-7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="VbFLIsorF7-M0Z902h-7-16" target="VbFLIsorF7-M0Z902h-7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VbFLIsorF7-M0Z902h-7-16" value="&lt;b&gt;评估与对齐：&lt;/b&gt;使用测试集评估模型表现，必要时进行 RLHF/DPO (人类偏好对齐)。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="335" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VbFLIsorF7-M0Z902h-7-18" value="&lt;b&gt;模型部署：&lt;/b&gt;将训练好的权重合并，使用推理框架（如 vLLM, TGI）部署为 API。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="335" y="490" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
