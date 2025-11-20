@@ -45,8 +45,31 @@
         <mxCell id="VbFLIsorF7-M0Z902h-7-16" value="&lt;b&gt;评估与对齐：&lt;/b&gt;使用测试集评估模型表现，必要时进行 RLHF/DPO (人类偏好对齐)。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="335" y="250" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Qx-iYoLXP45SYq-mxIGk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#999999;strokeColor=light-dark(#000000,#000000);endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="VbFLIsorF7-M0Z902h-7-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjERWudK2Q_tl-PBQUR4-1" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;提问&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" connectable="0" parent="Qx-iYoLXP45SYq-mxIGk-2">
+          <mxGeometry x="0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qx-iYoLXP45SYq-mxIGk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#999999;" edge="1" parent="1" source="VbFLIsorF7-M0Z902h-7-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjERWudK2Q_tl-PBQUR4-2" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;获得反馈&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" connectable="0" parent="Qx-iYoLXP45SYq-mxIGk-3">
+          <mxGeometry x="0.2121" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VbFLIsorF7-M0Z902h-7-18" value="&lt;b&gt;模型部署：&lt;/b&gt;将训练好的权重合并，使用推理框架（如 vLLM, TGI）部署为 API。" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="335" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx-iYoLXP45SYq-mxIGk-1" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="105" y="340" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
