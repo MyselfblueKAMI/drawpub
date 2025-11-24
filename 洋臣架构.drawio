@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0" pages="2">
   <diagram name="第 1 页" id="PmHiChWPkcZ4s2iq40rG">
-    <mxGraphModel dx="1668" dy="929" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="1329" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,6 +266,18 @@
           <mxGeometry height="18" relative="1" width="30" as="geometry">
             <mxPoint x="15" y="21" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i99XoNJa_SNx_f5vvE8V-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=50;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="184" width="356" x="97" y="-248" as="geometry" />
+        </mxCell>
+        <mxCell id="HBC5RCoL-ZBIihZZKrNa-1" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
+          <mxGeometry height="98" width="37" x="146" y="-215" as="geometry" />
+        </mxCell>
+        <mxCell id="HBC5RCoL-ZBIihZZKrNa-3" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
+          <mxGeometry height="98" width="37" x="199" y="-215" as="geometry" />
+        </mxCell>
+        <mxCell id="HBC5RCoL-ZBIihZZKrNa-4" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
+          <mxGeometry height="98" width="37" x="252" y="-215" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
