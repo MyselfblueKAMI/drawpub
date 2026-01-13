@@ -287,10 +287,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oP5aSky67QPJrbjuKn5C-2" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#6c8ebf;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#dae8fc;spacingLeft=20;fontFamily=Helvetica;opacity=50;" value="客户本地IDC" vertex="1">
-          <mxGeometry height="320" width="230" x="340" y="210" as="geometry" />
+          <mxGeometry height="320" width="180" x="340" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="oP5aSky67QPJrbjuKn5C-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" value="&lt;b&gt;知识库构建 (离线)：&lt;/b&gt;文档切片 (Chunking)、向量化 (Embedding)、存入向量数据库 (Vector DB)。" vertex="1">
-          <mxGeometry height="60" width="180" x="365" y="250" as="geometry" />
+        <mxCell id="oP5aSky67QPJrbjuKn5C-27" edge="1" parent="1" source="oP5aSky67QPJrbjuKn5C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oP5aSky67QPJrbjuKn5C-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP5aSky67QPJrbjuKn5C-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" value="&lt;p style=&quot;language:zh-CN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&amp;lt;br/&amp;gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: 微软雅黑; font-weight: bold;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;路由分发模块&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;language:zh-CN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&amp;lt;br/&amp;gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: 微软雅黑; font-weight: bold;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;（通用模型）&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="125" x="365" y="250" as="geometry" />
         </mxCell>
         <mxCell id="oP5aSky67QPJrbjuKn5C-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#999999;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
           <mxGeometry relative="1" as="geometry">
@@ -316,6 +319,15 @@
         </mxCell>
         <mxCell id="oP5aSky67QPJrbjuKn5C-25" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fontColor=#999999;fillColor=default;" value="" vertex="1">
           <mxGeometry height="60" width="60" x="100" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="oP5aSky67QPJrbjuKn5C-29" edge="1" parent="1" source="oP5aSky67QPJrbjuKn5C-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oP5aSky67QPJrbjuKn5C-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP5aSky67QPJrbjuKn5C-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;b&gt;FAQ引擎&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;b&gt;RAG引擎&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="95" x="380" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oP5aSky67QPJrbjuKn5C-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;b&gt;知识检索召回&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;b&gt;AgenticRAG&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="125" x="365" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
